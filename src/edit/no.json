@@ -1,0 +1,38 @@
+{
+  "fieldsets" : [
+    "Kjernedata",
+    "Endringer"
+  ],
+  "fields": {
+     "title": {
+      "title": "kurstittel"
+    },
+     "area": {
+      "title": "område"
+    },
+     "location": {
+      "title": "kurslokasjon"
+    },
+    "comment": {
+       "title": "kommentar"
+    },
+     "instructor_list": {
+       "title": "instruktør"
+    },
+    "valid": {
+      "title": "gyldig til i antall år eller 'for alltid'"
+    },
+    "created": {
+      "title": "opprettet"
+    },
+    "created_by": {
+      "title": "opprettet av"
+    },
+    "updated": {
+      "title": "oppdatert"
+    },
+    "updated_by": {
+      "title": "oppdatert av"
+    }
+  }
+}

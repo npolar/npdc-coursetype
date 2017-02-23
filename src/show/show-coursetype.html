@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<npdc:edit-button class="np-primary-control"></npdc:edit-button>
+<npdc:loader ng-if="!document"></npdc:loader>
+<leaflet ng-if="document && mapOptions.coverage" options="mapOptions" class="coverage-map"></leaflet>
+<div class="np-padding">
+  <div ng-if="document" class="np-doc">
+
+    <h3>{{ 'NPI coursetypes' | t }}</h3>
+
+ <h1>
+  <span class="md-display-2">{{ document.title }} </span><span style={font-size:15%}>
+  [{{document.title}}]</span></h1>
+
+  <section>
+   <p ><md-icon>place</md-icon>
+{{document.location.charAt(0).toUpperCase() + document.location.slice(1)}}</p>
+</section>
+
+ <section ng-if="document.area">
+          <md-divider></md-divider>
+        <h3>{{ 'Area' | t }}</h3>
+
+        <p marked="document.area"></p>
+      </section>
+
+     <section ng-if="document.comment">
+          <md-divider></md-divider>
+        <h3>{{ 'Comment' | t }}</h3>
+
+        <p marked="document.comment"></p>
+      </section>
+
+
+      <section ng-if="document.valid">
+          <md-divider></md-divider>
+        <h3>{{ 'Valid' | t }}</h3>
+
+        <p marked="document.valid"></p>
+      </section>
+
+
+<!-- created updated -->
+      <section>
+        <npdc:document-meta></npdc:document-meta>
+      </section>
+
+    </div>
+</div>
+

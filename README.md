@@ -1,2 +1,2 @@
-# npdc-coursetype
-npdc-coursetype feeds values to npdc-course
+# npdc-courstype
+npdc-coursetype feeds course values to npdc-course
