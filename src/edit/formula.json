@@ -21,7 +21,7 @@
       },
       {
         "id": "valid",
-         "title": "how long is the course valid in years or 'forever'"
+         "title": "how long the course valid - either measured in years or labelled 'forever'"
       }
       ]},
   {

@@ -20,7 +20,7 @@
        "title": "instruktør"
     },
     "valid": {
-      "title": "gyldig til i antall år eller 'for alltid'"
+      "title": "gyldig til angitt i antall år eller 'for alltid'"
     },
     "created": {
       "title": "opprettet"
