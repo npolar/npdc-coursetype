@@ -38,6 +38,7 @@ npdcCoursetypeApp.config(($httpProvider, npolarApiConfig) => {
 });
 
 npdcCoursetypeApp.run(($http, npdcAppConfig, NpolarTranslate, NpolarLang) => {
+  npdcAppConfig.help = { uri: 'https://github.com/npolar/npdc-coursetype/wiki' };
   NpolarTranslate.loadBundles('npdc-coursetype');
   npdcAppConfig.toolbarTitle = 'NPI coursetypes';
 });
